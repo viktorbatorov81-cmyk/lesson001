@@ -1,0 +1,55 @@
+/* Общие стили для тела страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Стили для шапки */
+header {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Стили для основного контента */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Стили для кнопки */
+button {
+    background-color: #008CBA; /* Синий */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Стиль для кнопки при наведении */
+button:hover {
+    background-color: #005f73;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
